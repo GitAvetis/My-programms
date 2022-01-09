@@ -65,6 +65,29 @@
                 Grid.Column="2"
                 BorderThickness="1">
             </Label>
+
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="0"
+                x:Name="outputText">
+                
+                
+            </StackPanel>
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="1"
+                x:Name="outputLetters">
+
+
+            </StackPanel>
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="2"
+                x:Name="outputVowels">
+
+
+            </StackPanel>
+
         </Grid>
 
         
